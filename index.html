@@ -3,9 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Felipe Alves | Consórcio para Brasil e Exterior</title>
-  <meta name="description" content="Atendimento online para brasileiros no Brasil e no exterior que desejam construir patrimônio com planejamento e clareza." />
+  <title>Felipe Alves | Consultor Ademicon em Marília | Consórcio para Imóvel, Veículo e Patrimônio</title>
+  <meta
+    name="description"
+    content="Consultoria Ademicon com atendimento online para todo o Brasil e brasileiros no exterior. Entenda o melhor planejamento para imóvel, veículo e construção de patrimônio."
+  />
+  <meta name="theme-color" content="#0b0f17" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Felipe Alves | Consultor Ademicon" />
+  <meta
+    property="og:description"
+    content="Atendimento online com clareza, estratégia e acompanhamento para quem quer comprar imóvel, veículo ou organizar patrimônio."
+  />
   <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Felipe Alves",
+      "jobTitle": "Consultor Ademicon",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Ademicon"
+      },
+      "telephone": "+55 14 99695-4298",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Marília",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "areaServed": [
+        "Brasil",
+        "Brasileiros no exterior"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/felipeademicon.marilia/"
+      ]
+    }
+  </script>
 </head>
 <body>
   <div class="page-glow page-glow-left"></div>
@@ -13,23 +51,31 @@
 
   <header class="topbar">
     <div class="container nav-wrap">
-      <a href="#inicio" class="brand">
+      <a href="#inicio" class="brand" aria-label="Ir para o início">
         <span class="brand-mark">FA</span>
         <span>
           <strong>Felipe Alves</strong>
-          <small>Brasil e Exterior</small>
+          <small>Consultor Ademicon • Marília/SP</small>
         </span>
       </a>
 
-      <nav class="nav">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="menu-principal" aria-label="Menu principal">
         <a href="#solucoes">Soluções</a>
-        <a href="#diferenciais">Diferenciais</a>
+        <a href="#autoridade">Autoridade</a>
         <a href="#processo">Processo</a>
         <a href="#faq">FAQ</a>
         <a href="#contato">Contato</a>
       </nav>
 
-      <a class="btn btn-outline btn-small" href="https://wa.me/5514996954298" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-outline btn-small desktop-cta" href="https://wa.me/5514996954298" target="_blank" rel="noopener">
+        Solicitar simulação
+      </a>
     </div>
   </header>
 
@@ -37,16 +83,31 @@
     <section class="hero" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <div class="eyebrow">Consultoria online para todo o Brasil e brasileiros no exterior</div>
-          <h1>Transforme parcelas em <span>patrimônio</span> com atendimento claro, estratégico e personalizado.</h1>
+          <div class="eyebrow">Atendimento online para todo o Brasil e brasileiros no exterior</div>
+          <h1>Consórcio com <span>clareza, estratégia e atendimento próximo</span> para imóvel, veículo e patrimônio.</h1>
           <p class="hero-text">
-            Felipe Alves atende clientes que querem sair do aluguel, comprar imóvel ou veículo e planejar patrimônio
-            com mais organização. Base em Marília, atendimento 100% online para qualquer lugar do Brasil e do exterior.
+            Sou <strong>Felipe Alves</strong>, consultor Ademicon com base em Marília. Meu trabalho é entender seu objetivo,
+            organizar as possibilidades e apresentar um plano mais coerente com seu orçamento, prazo e momento de vida.
           </p>
 
+          <div class="hero-points" aria-label="Diferenciais rápidos">
+            <span>Atendimento consultivo</span>
+            <span>Explicação simples</span>
+            <span>Estratégia personalizada</span>
+            <span>Suporte no WhatsApp</span>
+          </div>
+
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://wa.me/5514996954298" target="_blank" rel="noopener">Falar no WhatsApp</a>
-            <a class="btn btn-secondary" href="https://www.instagram.com/felipeademicon.marilia/" target="_blank" rel="noopener">Ver Instagram</a>
+            <a class="btn btn-primary" href="https://wa.me/5514996954298" target="_blank" rel="noopener">
+              Falar no WhatsApp
+            </a>
+            <a class="btn btn-secondary" href="https://www.instagram.com/felipeademicon.marilia/" target="_blank" rel="noopener">
+              Ver Instagram
+            </a>
+          </div>
+
+          <div class="hero-note">
+            Atendimento individual para quem quer sair do aluguel, comprar veículo ou construir patrimônio com mais segurança.
           </div>
 
           <div class="stats">
@@ -55,32 +116,40 @@
               <span>clientes atendidos</span>
             </div>
             <div class="stat-card">
-              <strong>Online</strong>
+              <strong>100% online</strong>
               <span>Brasil e exterior</span>
             </div>
             <div class="stat-card">
-              <strong>Imóvel</strong>
-              <span>veículo e patrimônio</span>
+              <strong>Imóvel, veículo</strong>
+              <span>e planejamento patrimonial</span>
             </div>
           </div>
         </div>
 
         <div class="hero-visual">
           <div class="hero-photo-card">
-            <img src="assets/hero3.png" alt="Felipe Alves" class="hero-photo" />
-            <div class="floating-note floating-note-top">Atendimento personalizado</div>
-            <div class="floating-note floating-note-bottom">Base em Marília • atuação nacional</div>
+            <img src="assets/hero3.png" alt="Felipe Alves, consultor Ademicon" class="hero-photo" loading="eager" />
+
+            <div class="floating-card floating-card-top">
+              <span class="floating-label">Atendimento próximo</span>
+              <strong>Você fala direto comigo</strong>
+            </div>
+
+            <div class="floating-card floating-card-bottom">
+              <span class="floating-label">Atuação</span>
+              <strong>Marília/SP • Brasil • Exterior</strong>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="trust-bar">
+    <section class="trust-bar" aria-label="Indicadores de confiança">
       <div class="container trust-items">
-        <div>Atendimento consultivo</div>
-        <div>Explicação simples</div>
-        <div>Plano alinhado ao orçamento</div>
-        <div>WhatsApp direto</div>
+        <div>Consultoria com visão de longo prazo</div>
+        <div>Plano alinhado ao seu perfil</div>
+        <div>Comunicação objetiva</div>
+        <div>Acompanhamento no processo</div>
       </div>
     </section>
 
@@ -88,78 +157,149 @@
       <div class="container">
         <div class="section-heading">
           <span class="section-tag">Soluções</span>
-          <h2>Como você pode ser atendido</h2>
-          <p>Um site de autoridade precisa mostrar com clareza para quem você trabalha e quais problemas resolve.</p>
+          <h2>Como posso ajudar no seu objetivo</h2>
+          <p>
+            Cada atendimento parte do seu momento atual. A recomendação mais adequada depende do seu objetivo,
+            prazo, orçamento e estratégia patrimonial.
+          </p>
         </div>
 
         <div class="cards three-cols">
           <article class="card service-card">
             <div class="card-icon">🏠</div>
             <h3>Consórcio para imóvel</h3>
-            <p>Para quem quer sair do aluguel, comprar imóvel ou planejar aquisição com mais estratégia.</p>
+            <p>
+              Para quem quer sair do aluguel, comprar, trocar ou planejar a aquisição de um imóvel com mais organização.
+            </p>
           </article>
 
           <article class="card service-card">
             <div class="card-icon">🚗</div>
             <h3>Consórcio para veículo</h3>
-            <p>Atendimento para quem busca organizar a compra do carro ou trocar de veículo com planejamento.</p>
+            <p>
+              Ideal para quem deseja comprar ou trocar de carro, moto ou utilitário com planejamento e previsibilidade.
+            </p>
           </article>
 
           <article class="card service-card">
             <div class="card-icon">📈</div>
             <h3>Planejamento patrimonial</h3>
-            <p>Ideal para quem quer construir patrimônio no Brasil, inclusive morando no exterior.</p>
+            <p>
+              Atendimento para quem quer construir patrimônio no Brasil com visão de médio e longo prazo, inclusive morando no exterior.
+            </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section alt-section" id="diferenciais">
+    <section class="section alt-section" id="autoridade">
       <div class="container split-grid">
         <div>
           <div class="section-heading left">
-            <span class="section-tag">Diferenciais</span>
-            <h2>O que transmite mais autoridade aqui do que só no Instagram</h2>
+            <span class="section-tag">Autoridade</span>
+            <h2>O que você encontra aqui além de uma simples página de contato</h2>
+            <p>
+              Meu objetivo é tornar sua decisão mais segura, com explicação clara do processo, entendimento do seu perfil e acompanhamento próximo.
+            </p>
           </div>
 
           <div class="cards two-cols">
             <article class="card feature-card">
-              <h3>Posicionamento claro</h3>
-              <p>Fica explícito que você atende o Brasil inteiro e brasileiros no exterior, sem parecer restrito a uma cidade.</p>
+              <h3>Posicionamento profissional</h3>
+              <p>
+                A página deixa claro quem eu atendo, quais objetivos trabalho e como você pode iniciar o atendimento.
+              </p>
             </article>
+
             <article class="card feature-card">
-              <h3>Estrutura profissional</h3>
-              <p>O visitante entende rapidamente quem você é, o que faz, para quem faz e como falar com você.</p>
+              <h3>Mais clareza para decidir</h3>
+              <p>
+                Você entende as etapas do processo e conversa com alguém que organiza as informações de forma simples e objetiva.
+              </p>
             </article>
+
             <article class="card feature-card">
-              <h3>Mais confiança</h3>
-              <p>O site centraliza bio profissional, diferenciais, perguntas frequentes e canais de contato em um só lugar.</p>
+              <h3>Atendimento humano</h3>
+              <p>
+                O contato é direto, sem enrolação e com foco no que faz sentido para seu momento financeiro e seus planos.
+              </p>
             </article>
+
             <article class="card feature-card">
-              <h3>Melhor conversão</h3>
-              <p>Com CTA para WhatsApp e Instagram, você reduz atrito e facilita o pedido de simulação ou atendimento.</p>
+              <h3>Presença que gera confiança</h3>
+              <p>
+                WhatsApp, Instagram, base em Marília e atendimento online reforçam proximidade e profissionalismo em um só lugar.
+              </p>
             </article>
           </div>
         </div>
 
         <aside class="about-card card">
           <div class="about-head">
-            <img src="assets/avatar2.png" alt="Perfil de Felipe Alves" class="avatar" />
+            <img src="assets/avatar2.png" alt="Perfil de Felipe Alves" class="avatar" loading="lazy" />
             <div>
+              <span class="mini-tag">Sobre mim</span>
               <h3>Felipe Alves</h3>
-              <p>Consultoria com base em Marília e atendimento online para todo o Brasil e brasileiros no exterior.</p>
+              <p>Consultor Ademicon com base em Marília e atendimento online para todo o Brasil e brasileiros no exterior.</p>
             </div>
           </div>
 
           <ul class="check-list">
-            <li>Comunicação simples e direta</li>
-            <li>Atendimento personalizado</li>
-            <li>Foco em construção de patrimônio</li>
-            <li>Contato rápido por WhatsApp</li>
+            <li>Atendimento personalizado conforme seu objetivo</li>
+            <li>Explicação clara, sem linguagem complicada</li>
+            <li>Foco em planejamento, organização e patrimônio</li>
+            <li>Suporte próximo antes, durante e após o atendimento</li>
           </ul>
 
-          <a class="btn btn-primary full-width" href="https://wa.me/5514996954298" target="_blank" rel="noopener">Solicitar atendimento</a>
+          <div class="mini-info-grid">
+            <div>
+              <span class="mini-label">Base</span>
+              <strong>Marília/SP</strong>
+            </div>
+            <div>
+              <span class="mini-label">Atendimento</span>
+              <strong>Online</strong>
+            </div>
+          </div>
+
+          <a class="btn btn-primary full-width" href="https://wa.me/5514996954298" target="_blank" rel="noopener">
+            Solicitar atendimento
+          </a>
         </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Para quem faz sentido</span>
+          <h2>Perfis que costumam me procurar</h2>
+          <p>
+            Se você se identifica com um desses objetivos, a conversa inicial já ajuda a entender qual direção faz mais sentido.
+          </p>
+        </div>
+
+        <div class="cards four-cols">
+          <article class="card profile-card">
+            <h3>Quem quer sair do aluguel</h3>
+            <p>Busca uma estratégia mais organizada para planejar a compra do imóvel.</p>
+          </article>
+
+          <article class="card profile-card">
+            <h3>Quem vai comprar ou trocar de veículo</h3>
+            <p>Quer previsibilidade financeira e um plano alinhado ao orçamento.</p>
+          </article>
+
+          <article class="card profile-card">
+            <h3>Quem pensa em patrimônio</h3>
+            <p>Deseja construir algo de forma planejada, sem agir por impulso.</p>
+          </article>
+
+          <article class="card profile-card">
+            <h3>Brasileiros no exterior</h3>
+            <p>Precisam de orientação clara para organizar decisões patrimoniais no Brasil.</p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -168,29 +308,29 @@
         <div class="section-heading">
           <span class="section-tag">Processo</span>
           <h2>Como funciona o atendimento</h2>
-          <p>Estrutura simples para quem quer entender o próximo passo sem enrolação.</p>
+          <p>Um caminho simples para você entender o próximo passo com mais tranquilidade.</p>
         </div>
 
         <div class="timeline-grid">
           <article class="timeline-card card">
             <span class="timeline-number">01</span>
-            <h3>Diagnóstico</h3>
-            <p>Você explica seu objetivo, momento financeiro e prazo esperado.</p>
+            <h3>Entendimento do objetivo</h3>
+            <p>Você me conta sua meta, prazo, orçamento e contexto atual.</p>
           </article>
           <article class="timeline-card card">
             <span class="timeline-number">02</span>
-            <h3>Estratégia</h3>
-            <p>É feito um direcionamento mais coerente com seu orçamento e sua meta.</p>
+            <h3>Análise do cenário</h3>
+            <p>Organizo as informações para identificar a direção mais coerente para seu perfil.</p>
           </article>
           <article class="timeline-card card">
             <span class="timeline-number">03</span>
-            <h3>Plano</h3>
-            <p>Você recebe uma orientação organizada para decidir com mais segurança.</p>
+            <h3>Apresentação da estratégia</h3>
+            <p>Você recebe uma orientação clara para decidir com mais segurança.</p>
           </article>
           <article class="timeline-card card">
             <span class="timeline-number">04</span>
             <h3>Acompanhamento</h3>
-            <p>O atendimento continua de forma próxima, com suporte no processo.</p>
+            <p>O atendimento segue de forma próxima, com suporte durante o processo.</p>
           </article>
         </div>
       </div>
@@ -201,25 +341,29 @@
         <div class="section-heading">
           <span class="section-tag">FAQ</span>
           <h2>Perguntas frequentes</h2>
-          <p>Esse bloco ajuda muito na autoridade porque reduz dúvidas comuns antes do primeiro contato.</p>
+          <p>Respostas rápidas para as dúvidas mais comuns antes do primeiro contato.</p>
         </div>
 
         <div class="faq-list">
           <details class="faq-item" open>
             <summary>Você atende só Marília?</summary>
-            <p>Não. A base é Marília, mas o atendimento pode ser feito online para clientes de todo o Brasil e para brasileiros que moram no exterior.</p>
+            <p>Não. Minha base é em Marília, mas o atendimento é online para todo o Brasil e também para brasileiros no exterior.</p>
           </details>
           <details class="faq-item">
-            <summary>Posso falar com você pelo WhatsApp?</summary>
-            <p>Sim. O site já direciona para o seu WhatsApp, facilitando a conversa e o primeiro atendimento.</p>
+            <summary>O primeiro contato pode ser pelo WhatsApp?</summary>
+            <p>Sim. O WhatsApp é o canal mais rápido para iniciar a conversa, tirar dúvidas e entender seu objetivo.</p>
           </details>
           <details class="faq-item">
-            <summary>Você trabalha com imóvel e veículo?</summary>
-            <p>Sim. O posicionamento do site foi estruturado para comunicar imóvel, veículo e planejamento patrimonial.</p>
+            <summary>Você atende quem busca imóvel e veículo?</summary>
+            <p>Sim. Atendo objetivos ligados a imóvel, veículo e também planejamento patrimonial, sempre considerando o seu perfil.</p>
           </details>
           <details class="faq-item">
             <summary>Moro fora do Brasil. Ainda posso ser atendido?</summary>
-            <p>Sim. O texto do site deixa isso explícito para que brasileiros no exterior entendam rapidamente que você também atende esse público.</p>
+            <p>Sim. Muitos clientes valorizam justamente a possibilidade de receber atendimento online e organizar decisões patrimoniais no Brasil mesmo morando no exterior.</p>
+          </details>
+          <details class="faq-item">
+            <summary>O atendimento já começa com uma indicação pronta?</summary>
+            <p>Não. Primeiro eu entendo seu objetivo e seu momento. A orientação precisa ser coerente com seu orçamento, prazo e estratégia.</p>
           </details>
         </div>
       </div>
@@ -229,8 +373,10 @@
       <div class="container cta-box">
         <div>
           <span class="section-tag">Contato</span>
-          <h2>Quer transformar o Instagram em autoridade de verdade?</h2>
-          <p>Use este site como sua página principal para bio, anúncios, link da bio e atendimento via WhatsApp.</p>
+          <h2>Quer entender qual estratégia faz sentido para o seu momento?</h2>
+          <p>
+            Fale comigo no WhatsApp para explicar seu objetivo. A partir disso, eu te ajudo a organizar os próximos passos com mais clareza.
+          </p>
         </div>
         <div class="cta-actions">
           <a class="btn btn-primary" href="https://wa.me/5514996954298" target="_blank" rel="noopener">Chamar no WhatsApp</a>
@@ -244,15 +390,25 @@
     <div class="container footer-wrap">
       <div>
         <strong>Felipe Alves</strong>
-        <p>Atendimento online para Brasil e exterior.</p>
+        <p>Consultor Ademicon com atendimento online para Brasil e exterior.</p>
       </div>
+
       <div class="footer-links">
         <a href="https://wa.me/5514996954298" target="_blank" rel="noopener">WhatsApp</a>
         <a href="https://www.instagram.com/felipeademicon.marilia/" target="_blank" rel="noopener">Instagram</a>
       </div>
+
       <div class="footer-copy">© <span id="year"></span> Felipe Alves</div>
     </div>
+
+    <div class="container footer-note">
+      Este site tem caráter informativo. A estratégia ideal depende do seu perfil, objetivo, orçamento e condições vigentes da administradora.
+    </div>
   </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/5514996954298" target="_blank" rel="noopener" aria-label="Falar com Felipe Alves no WhatsApp">
+    <span>WhatsApp</span>
+  </a>
 
   <script src="script.js"></script>
 </body>
